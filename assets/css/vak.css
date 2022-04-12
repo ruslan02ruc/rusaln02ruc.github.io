@@ -1,0 +1,266 @@
+/* vacancy styles */
+.vacancy-organizations,
+.vacancy-organizations * {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.vacancy-organizations {
+    width: 100% !important;
+    margin: 25px 0 50px !important;
+    padding: 0 15px !important;
+}
+
+.vacancy-organizations-form {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    margin-bottom: 30px !important;
+}
+
+.vacancy-organizations-form input[type='text'] {
+    display: block !important;
+    width: 100% !important;
+    min-width: initial !important;
+    max-width: initial !important;
+    height: auto !important;
+    padding: 6px 45px 6px 10px !important;
+    border-radius: 3px !important;
+    border: 1px solid #ccc !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.vacancy-organizations-form button[type='submit'] {
+    position: absolute !important;
+    right: 0 !important;
+    left: auto !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    padding: 0 12px !important;
+    font-size: 15px !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.vacancy-organizations .vacancy-organizations-list {
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+.vacancy-organizations .vacancy-organizations-i,
+.vacancy-organizations .vacancy-btn {
+    -webkit-transition: .2s !important;
+    -moz-transition: .2s !important;
+    transition: .2s !important;
+}
+
+.vacancy-organizations .vacancy-organizations-i {
+    display: inline-block !important;
+    width: 185px !important;
+    padding: 10px !important;
+    vertical-align: top !important;
+    list-style: none !important;
+}
+
+.vacancy-organizations .vacancy-organizations-i:hover {
+    background-color: #f5f5f5 !important;
+}
+
+.vacancy-organizations .vacancy-organizations-i a {
+    color: #0088cc !important;
+    text-decoration: none !important;
+}
+
+.vacancy-organizations .vacancy-organizations-pic {
+    margin-bottom: 5px !important;
+}
+
+.vacancy-organizations .vacancy-organizations-pic img {
+    max-width: 85px !important;
+}
+
+.vacancy-organizations .vacancy-title {
+    margin: 0 0 20px !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+.vacancy-organizations .vacancy-list,
+.vacancy-organizations .vacancy-i {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.vacancy-organizations .vacancy-list {
+    border-top: 1px solid #d9e5e8 !important;
+}
+
+.vacancy-organizations .vacancy-list,
+.vacancy-organizations .vacancy-address {
+    width: 100% !important;
+    max-width: 600px !important;
+    margin: 0 auto 30px !important;
+}
+
+.vacancy-organizations .vacancy-btn {
+    display: inline-block !important;
+    border-radius: 4px !important;
+    padding: 7px 10px !important;
+    color: #fff !important;
+    background-color: #569fd3 !important;
+    text-decoration: none !important;
+    line-height: 1 !important;
+}
+
+.vacancy-organizations .vacancy-btn:hover {
+    background-color: #3383bc !important;
+}
+
+.vacancy-organizations .vacancy-address-btn {
+    margin-left: 5px;
+}
+
+.vacancy-organizations .vacancy-i {
+    border-bottom: 1px solid #d9e5e8 !important;
+    list-style: none !important;
+}
+
+.vacancy-organizations .vacancy-i-title {
+    display: block !important;
+    position: relative !important;
+    padding: 10px 17px 10px 5px !important;
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.vacancy-organizations .vacancy-i-title i {
+    position: absolute !important;
+    top: 50% !important;
+    bottom: 0 !important;
+    right: 5px !important;
+    margin-top: -11px !important;
+    font-size: 20px !important;
+}
+
+.vacancy-organizations .vacancy-i-title:hover,
+.vacancy-organizations .vacancy-i-title.vacancy-active {
+    color: #569fd3 !important;
+}
+
+.vacancy-organizations .vacancy-i-content {
+    display: none;
+    padding: 15px 10px 25px;
+}
+
+.vacancy-organizations .vacancy-i-content h6 {
+    margin: 0 0 10px !important;
+    font-size: inherit !important;
+    font-weight: bold !important;
+}
+
+.vacancy-organizations .vacancy-i-requirements,
+.vacancy-organizations .vacancy-i-contacts {
+    margin-bottom: 20px;
+}
+
+/* reset styles for tinymce editor */
+.vacancy-organizations .vacancy-i-requirements ul,
+.vacancy-organizations .vacancy-i-requirements ol {
+    margin-left: 20px;
+}
+
+.vacancy-organizations .vacancy-i-requirements li {
+    margin: initial;
+    padding: initial;
+    list-style: initial;
+}
+
+.vacancy-organizations .vacancy-i-requirements table {
+    border-color: #333;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.vacancy-organizations .vacancy-i-requirements table,
+.vacancy-organizations .vacancy-i-requirements table tr,
+.vacancy-organizations .vacancy-i-requirements table td {
+    border: 1px dashed #A1BDD6;
+}
+
+.vacancy-organizations .vacancy-i-requirements table td {
+    padding: 2.8px 7px;
+}
+
+.vacancy-organizations .vacancy-i-requirements a {
+    color: #337ab7;
+    text-decoration: underline !important;
+}
+
+.vacancy-organizations .vacancy-i-requirements img {
+    display: inline-block;
+    max-width: 100%
+}
+
+.vacancy-organizations .vacancy-i-requirements strong,
+.vacancy-organizations .vacancy-i-requirements b {
+    font-weight: bold;
+}
+
+/* reset styles for tinymce editor end */
+
+.vacancy-organizations .pagination-area {
+    margin: 40px 0 20px !important;
+    text-align: center !important;
+}
+
+.vacancy-organizations .pagination-list {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.vacancy-organizations .pagination-list li {
+    display: inline-block !important;
+    width: 30px !important;
+    height: 28px !important;
+    margin-right: 5px !important;
+    vertical-align: middle !important;
+
+}
+
+.vacancy-organizations .pagination-list li:last-child {
+    margin-right: 0 !important;
+}
+
+.vacancy-organizations .pagination-list li.active-page {
+    border-bottom: 2px solid #0088cd !important;
+}
+
+.vacancy-organizations .pagination-area a {
+    display: inline-block !important;
+    width: 100% !important;
+    color: #555 !important;
+    font-size: 14px !important;
+    line-height: 28px !important;
+    text-decoration: none !important;
+}
+
+.vacancy-organizations .pagination-area a:hover {
+    color: #0088cd !important;
+}
+
+.vacancy-organizations .pagination-area a i {
+    font-size: 17px !important;
+    line-height: inherit !important;
+}
+#carouselExampleControls1{
+    margin-left: 88px;
+    margin-right: 88px;
+
+}

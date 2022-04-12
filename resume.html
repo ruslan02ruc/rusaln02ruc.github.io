@@ -1,0 +1,880 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Agartu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="../assets3/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets3/owlcarousel/assets/owl.theme.default.min.css" />
+
+    <!-- javascript -->
+    <script src="../assets3/vendors/jquery.min.js"></script>
+    <script src="../assets3/owlcarousel/owl.carousel.js"></script>
+
+    <style>
+        .pol {
+            border-bottom: 1px solid rgb(77, 87, 218);
+        }
+        
+        .contact-section {
+            padding: 30px 0 30px;
+        }
+        
+        .vacancies_link {
+            margin: 0px 36%;
+            font-size: 20px;
+            text-transform: none;
+            text-decoration: none;
+            padding-top: 30px;
+            text-align: center;
+        }
+        
+        .vacancies_link a {
+            color: #428bca;
+        }
+        
+        .vacancies_link a:hover {
+            color: #003e74;
+        }
+        /* .form-search {
+            padding-top: 20px;
+        } */
+        
+        .btn_search {
+            min-width: 100px;
+            padding: 18px 44px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            /* grid-gap: 1rem; */
+        }
+        
+        .grid>div {
+            padding: 1.5rem;
+            border-radius: 1rem;
+        }
+        
+        .trand-right-img img {
+            width: 128px;
+            height: 128px !important;
+        }
+        
+        .vacancies_item {
+            align-items: center;
+        }
+        
+        .vacancies_item_text {
+            padding-top: 20px;
+        }
+        
+        .embed-responsive {
+            margin: 0 auto;
+        }
+        
+        .card2 {
+            padding-bottom: 20px;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        
+        .card-header {
+            border: 1px double rgb(168, 156, 156);
+        }
+        
+        .vacancies_line {
+            border-bottom: 1px solid rgb(162, 164, 185);
+        }
+        
+        .form-check-input {
+            transform: scale(1.8);
+        }
+        
+        .form-check-label {
+            padding-bottom: 10px;
+        }
+        
+        .border_category {
+            padding: 20px;
+            border: 1px double rgb(175, 173, 173);
+        }
+        
+        .vacancy_item_link {
+            color: black;
+        }
+        
+        .vacancy_item_link:hover {
+            color: black;
+        }
+        
+        .vacancy_item {
+            border: 1px double rgb(170, 189, 136);
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fdfcfc;
+        }
+        
+        .vacancy_item_date {
+            align-self: right;
+            color: grey;
+        }
+        
+        .vacancies_category_btn {
+            margin-top: 20px;
+            background: #ff656a;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            line-height: 0;
+            padding: 20px 20px;
+            border-radius: 5px;
+            min-width: 200px;
+            border: 0;
+        }
+        
+        .input-append {
+            padding-bottom: 20px;
+        }
+        
+        .vacancy_btn {
+            background: #60b5ee;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 0;
+            padding: 15px 20px;
+            border-radius: 5px;
+            min-width: 200px;
+            border: 0;
+        }
+        
+        .vacancies_group {
+            padding-bottom: 20px;
+        }
+        
+        .btn-group {
+            margin-left: 20px;
+        }
+        
+        .btn_resume {
+            margin-left: 20px;
+            padding: 15px 20px;
+            background-color: rgb(163, 211, 130);
+        }
+        
+        .fa .fa-angle-right {
+            transform: rotate(90deg);
+        }
+        
+        .btn-vacancies_group {
+            padding: 15px 20px;
+        }
+        
+        .news-author-list {
+            padding-top: 20px;
+            grid-gap: 20px;
+        }
+        
+        .news-author-list-item {
+            display: flex;
+            padding-bottom: 10px;
+        }
+        
+        .blog-info-link {
+            color: black;
+        }
+        
+        .news-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        .border-color {
+            background: #fdfcfc;
+            border: 1px solid #dee2e6!important;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .border-color:hover {
+            box-shadow: 0 0 10px 3px rgb(0 0 0 / 50%);
+        }
+        
+        .job-text {
+            line-height: 17px;
+        }
+        
+        .job-modal {
+            padding-left: 30px;
+        }
+        
+        .btn-modal {}
+        
+        .carCheck1 {
+            color: black;
+        }
+        
+        .bloko-button {
+            line-height: 1.43;
+            font-size: 14px;
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0;
+            vertical-align: middle;
+            text-decoration: none;
+            -webkit-user-select: none;
+            user-select: none;
+            white-space: nowrap;
+            -webkit-appearance: none;
+            cursor: pointer;
+            height: 40px;
+            position: relative;
+            padding: 0 12px;
+            border-radius: 4px;
+            font-family: inherit;
+            line-height: 38px;
+            color: #ffffff;
+            border: 1px solid #d4d7d9;
+            background-color: #1785e5;
+        }
+        
+        .bloko-button:hover {
+            background-color: #0c68b9;
+        }
+        
+        .bloko-input {
+            line-height: 1.43;
+            font-size: 14px;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            height: 40px;
+            padding: 0 12px;
+            margin: 0;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            color: #303233;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -webkit-tap-highlight-color: transparent;
+            background-color: #fff;
+            line-height: 38px;
+            border: 1px solid #babdbf;
+        }
+        
+        .bloko-link {
+            margin-left: -25px;
+            display: inline;
+            outline: none;
+            border: 0;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 0;
+            font-size: inherit;
+            background: transparent;
+            box-shadow: none;
+            color: #3c9df2;
+            text-align: left;
+            transition: color .1s, opacity .1s;
+        }
+        
+        .bloko-link:hover {
+            color: #1186ec;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header ">
+                <div class="header-mid d-none d-md-block">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="logo" style="margin: auto;">
+                                    <a href="index.html"><img style="    width: -webkit-fill-available;" src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel" style="margin: 0; height: auto; width: -webkit-fill-available;max-width: 70%;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="https://mektepforma.kz/"><img class="d-block w-100" src="assets/img/hero/header_card.png" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://t.me/kdtkzchat"><img class="d-block w-100" src="assets/img/hero/header_card2.png" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://play.google.com/store/apps/details?id=kz.kdt.bmcmobi"><img class="d-block w-100" src="assets/img/hero/header_card3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="header-bottom header-relative">
+                    <div class="container">
+                        <div class="row align-items-center" style="flex-wrap:nowrap">
+                         <div class="col-lg-10 col-lg-8 col-sm-8 mobile_menu2">
+                                <!-- sticky -->
+                                <div class="sticky-logo info-open">
+                                    <a href="index.html">
+                                            <img src="assets/img/logo/logo.png" alt="" style="max-width: 100%;">
+                                    </a>
+                                </div>
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-md-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Главная</a></li>
+                                            <li><a>Новости <i class='fas fa-angle-down'></i></a>
+                                                <ul class="submenu submenu2">
+                                                    <li><a href="news-spheres.html">Новости по сферам</a></li>
+                                                    <li><a href="news-KZ.html">Новости Казахстана</a></li>
+                                                    <li><a href="news-world.html">Новости Мира</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="comunit.html">Сообщества</a></li>
+                                            <li><a href="blog.html">Обсуждения</a></li>
+                                            <li><a href="about.html">О нас</a></li>
+                                            <li><a href="regseti.html">Региональные сети</a></li>
+                                            <li><a href="industry_portals.html">Отраслевые порталы</a>
+                                            <li><a  class="menu_highlight">Работа <i class='fas fa-angle-down'></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="vak.html">Вакансии</a></li>
+                                                    <li><a href="job.html">Резюме</a></li>
+                                                </ul>
+                                            </li>
+                                           <li><a href="enterprises-organizations.html">Предприятия организации</a></li>
+                                            <li><a href="reviews.html">Отзывы</a></li>
+                                              <!-- <li><a href="#">3lvl</a>
+                                                <ul class="submenu">
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="#">Blog</a>
+                                                        <ul class="submenu" style="top: 10px;left: 100%;">
+                                                            <li><a href="elements.html">Element</a></li>
+                                                            <li><a href="blog.html">Blog</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="#">Blog</a>
+                                                        <ul class="submenu" style="top: 10px;left: 100%;">
+                                                            <li><a href="elements.html">Element</a></li>
+                                                            <li><a href="blog.html">Blog</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                </ul>
+                                            </li> --> 
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="mobile_menu d-block d-md-none" style="margin-top: 56px !important;">
+                                    <div class="slicknav_menu" style="margin-top: 40px !important;">
+                                        <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"></a>
+                                        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                                            <li><a href="index.html" role="menuitem" tabindex="-1">Главная</a></li>
+                                            <li><a href="about.html" role="menuitem" tabindex="-1">О нас</a></li>
+                                            <li><a href="news-list.html" role="menuitem" tabindex="-1">Новости</a></li>
+                                            <li><a href="comunit.html" role="menuitem" tabindex="-1">Сообщества</a></li>
+                                            <li><a href="blog.html" role="menuitem" tabindex="-1">Обсуждения</a></li>
+                                            <li><a href="regseti.html" role="menuitem" tabindex="-1">Региональные сети</a></li>
+                                            <li><a href="vak.html" role="menuitem" tabindex="-1">Работа</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        <div class="col-lg-2 mobile_menu_search" style="padding-left: 0;">
+                                <div class="Search-news">
+                                    <input type="text" class="form-control">
+                                    <a href="Search.html" class="Search-news header-right-btn">
+                                        <i class="fas fa-search" style="padding: 6px 0 6px 6px;"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <!-- ================ contact section start ================= -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="breadcrumb-path">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                            <li class="breadcrumb-item">Работа</li>
+                            <li class="breadcrumb-item"><a href="job.html">Список резюме</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Сделать резюме</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <form>
+                    <h3 style="padding-bottom: 20px">Контактные данные</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Фамилия">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Отчество">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Мобильный телефон">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" aria-describedby="emailHelp" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+                    <!-- <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Город проживания">
+                    </div> -->
+                    <div class="form-group">
+                        <div style="display: flex; gap: 50px; ">
+                            <div style="align-self: center;">Город проживания</div>
+
+                            <div class="col-auto my-1">
+                                <select class="mr-sm-2 " id="inlineFormCustomSelect">
+                                  <!-- <option selected>Choose...</option> -->
+                                  <option value="1">Абай</option>
+                                  <option value="2">Акколь</option>
+                                  <option value="3">Аксай</option>
+                                  <option value="4">Аксукент</option>
+                                  <option value="5">Аксу</option>
+                                  <option value="6">Актау</option>
+                                  <option value="7">Актобе</option>
+                                  <option value="8">Актогай</option>
+                                  <option value="9">Алга</option>
+                                  <option value="10">Алматы</option>
+                                  <option value="11">Алтай</option>
+                                  <option value="12">Аральск</option>
+                                  <option value="13">Аркалык</option>
+                                  <option value="14">Арысь</option>
+                                  <option value="15">Аса</option>
+                                  <option value="16">Астраханка</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <h3 style="padding-bottom: 20px">Основная информация</h3>
+                    <div class="form-group">
+                        <div>
+                            <label for="bday">Введите дату вашего рождения:</label>
+                            <input type="date" id="bday" class="form-control" name="bday">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <div style="display: flex; gap: 50px; ">
+                            <p>Пол</p>
+                            <div class="form-check">
+                                <label class="form-check-label" for="exampleRadios1">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked="">
+                                    Мужской
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    Женский
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Гражданство">
+                    </div> -->
+                    <div class="form-group">
+                        <div style="display: flex; gap: 50px; ">
+                            <p>Опыт работы</p>
+                            <div class="form-check">
+                                <label class="form-check-label" for="exampleRadios3">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios1" value="option1" checked="">
+                                    Есть опыт работы
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label" for="exampleRadios4">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+                                    Нет опыта работы
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 style="padding-bottom: 20px">Специальность</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Желаемая должность">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Зарплата">
+                    </div>
+                    <h3 style="padding-bottom: 20px">Опыт работы</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Места работы">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="О себе: Расскажите о своих качествах, знаниях, увлечениях, которые, как вам кажется, будут полезны работодателю
+                        " name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Ключевые навыки">
+                    </div>
+
+
+
+                    <h3 style="padding-bottom: 20px">Образование</h3>
+                    <div class="form-group">
+                        <div style="display: flex; gap: 50px; ">
+                            <div style="align-self: center;">Уровень</div>
+
+                            <div class="col-auto my-1">
+                                <select class="mr-sm-2" id="inlineFormCustomSelect">
+                                  <!-- <option selected>Choose...</option> -->
+                                  <option value="1">Среднее</option>
+                                  <option value="2">Среднее специальное</option>
+                                  <option value="3">Неоконченное высшее</option>
+
+                                  <option value="4">Высшее</option>
+                                  <option value="5">Бакалавр</option>
+                                  <option value="6">Магистр</option>
+                                  <option value="7">Кандидат наук</option>
+                                  <option value="8">Доктор наук</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <textarea class="form-control" placeholder="Введите название учебного заведение" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <h3 style="padding-bottom: 20px">Владение языками</h3>
+                    <div class="form-group">
+                        <div style="display: flex; gap: 50px; ">
+                            <div style="align-self: center;">Родной язык</div>
+                            <div class="col-auto my-1">
+                                <select class="mr-sm-2" id="inlineFormCustomSelect">
+                                  <option value="1">Казахский</option>
+                                  <option value="2">Русский</option>
+                                  <option value="3">английский</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <p class="">Иностранные язык</p>
+                        <textarea class="form-control" placeholder="Какие иностранные языки вы знаете" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+
+
+
+                    <!-- <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFileLang" lang="ru">
+                            <label class="custom-file-label" for="customFile">Выбрать резюме</label>
+                          </div>
+                    </div> -->
+                    <input type="button" class="bloko-button" value="Отправить резюме">
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <!-- ================ contact section end ================= -->
+    <footer>
+        <div class="recent-articles ">
+            <div class="container ">
+                <div class="recent-wrapper ">
+                    <section id="deos ">
+                        <!-- section Tittle -->
+                        <div class="row ">
+                            <div class="col-lg-12 ">
+                                <div class="section-tittle mb-30 ">
+                                    <h3>Полезное</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-12 ">
+                                <div class="owl-carousel owl-theme ">
+                                    <div class="item ">
+                                        <a href="https://agartu.kz/zayavka">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/7.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://agartu.kz/zayavka ">Подавай заявки куда угодно!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://elib.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/1.png " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://elib.kdt.kz/ ">Учись с умом с Е-библиотекой</a>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://study.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/6.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://study.kdt.kz/ ">С нашими сервисами учиться проще!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://exams.kdt.kz/ ">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/5.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://exams.kdt.kz/ ">Проверь свои знания с BMC Exams!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://security.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/4.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://security.kdt.kz/ ">Будь в безопасности с ВМС СМБР!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://vacancy.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/2.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://vacancy.kdt.kz/ ">Найди работу своей мечты с ВМС Вакансии</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://estol.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/3.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://estol.kdt.kz/ ">Ешь не думая с Е-столовой!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding fix ">
+            <div class="container ">
+                <div class="row d-flex justify-content-between ">
+                    <div class="col-xl-4 col-lg-5 col-md-7 col-sm-12 ">
+                        <div class="single-footer-caption ">
+                            <div class="single-footer-caption ">
+                                <!-- logo -->
+                                <div class="footer-logo ">
+                                    <a href="index.html "><img src="assets/img/logo/logo2_footer.png " alt=" "></a>
+                                </div>
+                                <div class="footer-tittle ">
+                                    <div class="footer-pera ">
+                                        <p>Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки новых предложений. Товарищи! укрепление и развитие структуры играет важную роль в
+                                            формировании позиций, занимаемых участниками в отношении поставленных задач.</p>
+                                    </div>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social ">
+                                    <a href="# "><i class="fab fa-telegram "></i></a>
+                                    <a href="# "><i class="fab fa-vk "></i></a>
+                                    <a href="# "><i class="fab fa-twitter "></i></a>
+                                    <a href="# "><i class="fab fa-facebook "></i></a>
+                                    <a href="# "><i class="fab fa-youtube "></i></a>
+                                    <a href="# "><i class="fa fa-rss "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 ">
+                        <div class="single-footer-caption mb-50 mt-60 ">
+                            <nav>
+                                <div class="footer-tittle footer-tittle-navigation ">
+                                    <h4>Меню</h4>
+                                    <ul class="footer_navigation ">
+                                        <li><a class="footer_navigation_text " href="index.html ">Главная</a></li>
+                                        <li><a class="footer_navigation_text " href="about.html ">О Agartu</a></li>
+                                        <li><a class="footer_navigation_text " href="latest_news.html ">Новости</a></li>
+                                        <li><a class="footer_navigation_text " href="comunit.html ">Сообщества</a></li>
+                                        <li><a class="footer_navigation_text " href="blog.html ">Обсуждения</a></li>
+                                        <li><a class="footer_navigation_text " href="regseti.html ">Региональные сети</a></li>
+                                        <li><a href="industry_portals.html">Отраслевые порталы</a>
+                                            <li><a class="footer_navigation_text " href="vak.html ">Вакансии</a></li>
+                                            <li><a class="footer_navigation_text " href="job.html">Резюме</a></li>
+                                            <li><a class="footer_navigation_text " href="reviews.html">Отзывы</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 ">
+                        <div class="single-footer-caption mb-50 mt-60 ">
+                            <nav>
+                                <div class="footer-tittle footer-tittle-navigation ">
+                                    <h4>Дополнительное меню</h4>
+                                    <ul class="footer_navigation ">
+                                        <li>
+                                            <a class="footer_navigation_text " href=" "></a>
+                                        </li>
+                                        <li>
+                                            <a class="footer_navigation_text " href=" "></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 ">
+                        <p class="count mt-60 "><span>Статистика сайта</span></p>
+                        <ul class="statistika ">
+                            <li>За месяц<span>: 130</span></li>
+                            <li>За неделю<span>: 17</span></li>
+                            <li>Вчера<span>: 4</span></li>
+                            <li>Сегодня<span>: 4</span></li>
+                            <li>Онлайн<span>: 0</span></li>
+                        </ul>
+                        <p class="count mt-60 "><span>Статистика платформы</span></p>
+                        <ul class="statistika ">
+                            <li>За месяц<span>: 135204</span></li>
+                            <li>За неделю<span>: 19218</span></li>
+                            <li>Вчера<span>: 4268</span></li>
+                            <li>Сегодня<span>: 2604</span></li>
+                            <li>Онлайн<span>: 187</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom aera -->
+        <div class="footer-bottom-area ">
+            <div class="container ">
+                <div class="footer-border ">
+                    <div class="row d-flex align-items-center justify-content-between ">
+                        <div class="col-lg-6 ">
+                            <div class="footer-copy-right ">
+                                <p>© 2022 "BenchMark Consulting"</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="footer-menu f-right ">
+                                <ul>
+                                    <li><a href="# ">Политика конфиденциальности</a></li>
+                                    <li><a href="# ">Пользовательское соглашение</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- All JS Custom Plugins Link Here here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js "></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js "></script>
+    <script src="./assets/js/popper.min.js "></script>
+    <script src="./assets/js/bootstrap.min.js "></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js "></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js "></script>
+    <script src="./assets/js/slick.min.js "></script>
+    <!-- Date Picker -->
+    <script src="./assets/js/gijgo.min.js "></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js "></script>
+    <script src="./assets/js/animated.headline.js "></script>
+    <script src="./assets/js/jquery.magnific-popup.js "></script>
+
+    <!-- Breaking New Pluging -->
+    <script src="./assets/js/jquery.ticker.js "></script>
+    <script src="./assets/js/site.js "></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js "></script>
+    <script src="./assets/js/jquery.nice-select.min.js "></script>
+    <script src="./assets/js/jquery.sticky.js "></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js "></script>
+    <script src="./assets/js/jquery.form.js "></script>
+    <script src="./assets/js/jquery.validate.min.js "></script>
+    <script src="./assets/js/mail-script.js "></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js "></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js "></script>
+    <script src="./assets/js/main.js "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1323 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Agartu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="../assets3/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets3/owlcarousel/assets/owl.theme.default.min.css" />
+
+    <!-- javascript -->
+    <script src="../assets3/vendors/jquery.min.js"></script>
+    <script src="../assets3/owlcarousel/owl.carousel.js"></script>
+
+    <style>
+        .pol {
+            border-bottom: 1px solid rgb(77, 87, 218);
+        }
+        
+        .contact-section {
+            padding: 30px 0 30px;
+        }
+        
+        .vacancies_link {
+            margin: 0px 36%;
+            font-size: 20px;
+            text-transform: none;
+            text-decoration: none;
+            padding-top: 30px;
+            text-align: center;
+        }
+        
+        .vacancies_link a {
+            color: #428bca;
+        }
+        
+        .vacancies_link a:hover {
+            color: #003e74;
+        }
+        /* .form-search {
+            padding-top: 20px;
+        } */
+        
+        .btn_search {
+            min-width: 100px;
+            padding: 18px 44px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            /* grid-gap: 1rem; */
+        }
+        
+        .grid>div {
+            padding: 1.5rem;
+            border-radius: 1rem;
+        }
+        
+        .trand-right-img img {
+            width: 128px;
+            height: 128px !important;
+        }
+        
+        .vacancies_item {
+            align-items: center;
+        }
+        
+        .vacancies_item_text {
+            padding-top: 20px;
+        }
+        
+        .embed-responsive {
+            margin: 0 auto;
+        }
+        
+        .card2 {
+            padding-bottom: 20px;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        
+        .card-header {
+            border: 1px double rgb(168, 156, 156);
+        }
+        
+        .vacancies_line {
+            border-bottom: 1px solid rgb(162, 164, 185);
+        }
+        
+        .form-check-input {
+            transform: scale(1.8);
+        }
+        
+        .form-check-label {
+            padding-bottom: 10px;
+            padding-left: 7px;
+        }
+        
+        .border_category {
+            padding: 20px;
+            border: 1px double rgb(175, 173, 173);
+        }
+        
+        .vacancy_item_link {
+            color: black;
+        }
+        
+        .vacancy_item_link:hover {
+            color: black;
+        }
+        
+        .vacancy_item {
+            border: 1px double rgb(170, 189, 136);
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fdfcfc;
+        }
+        
+        .vacancy_item_date {
+            align-self: right;
+            color: grey;
+        }
+        
+        .vacancies_category_btn {
+            margin-top: 20px;
+            background: #ff656a;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            line-height: 0;
+            padding: 20px 20px;
+            border-radius: 5px;
+            min-width: 200px;
+            border: 0;
+        }
+        
+        .input-append {
+            padding-bottom: 20px;
+        }
+        
+        .vacancy_btn {
+            background: #60b5ee;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 0;
+            padding: 15px 20px;
+            border-radius: 5px;
+            min-width: 200px;
+            border: 0;
+        }
+        
+        .vacancies_group {
+            padding-bottom: 20px;
+        }
+        /*     justify-content: space-around;
+    gap: 10px; */
+        
+        .btn-group {
+            margin-left: 20px;
+        }
+        
+        .btn_resume {
+            margin-left: 20px;
+            padding: 15px 20px;
+            background-color: rgb(163, 211, 130);
+        }
+        
+        .fa .fa-angle-right {
+            transform: rotate(90deg);
+        }
+        
+        .btn-vacancies_group {
+            padding: 15px 20px;
+        }
+        
+        .news-author-list {
+            padding-top: 20px;
+            grid-gap: 20px;
+        }
+        
+        .news-author-list-item {
+            display: flex;
+            padding-bottom: 10px;
+        }
+        
+        .blog-info-link {
+            color: black;
+        }
+        
+        .job-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        .border-color {
+            background: #fdfcfc;
+            border: 1px solid #dee2e6!important;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .border-color:hover {
+            box-shadow: 0 0 10px 3px rgb(0 0 0 / 50%);
+        }
+        
+        .job-text {
+            line-height: 17px;
+        }
+        
+        .job-modal {
+            padding-left: 30px;
+        }
+        
+        .btn-modal {}
+        
+        .carCheck1 {
+            color: black;
+        }
+        
+        .bloko-button {
+            line-height: 1.43;
+            font-size: 14px;
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0;
+            vertical-align: middle;
+            text-decoration: none;
+            -webkit-user-select: none;
+            user-select: none;
+            white-space: nowrap;
+            -webkit-appearance: none;
+            cursor: pointer;
+            height: 40px;
+            position: relative;
+            padding: 0 12px;
+            border-radius: 4px;
+            font-family: inherit;
+            line-height: 38px;
+            color: #303233;
+            border: 1px solid #d4d7d9;
+            background-color: #fafafa;
+        }
+        
+        .bloko-button:hover {
+            background-color: #d4d7d9;
+        }
+        
+        .bloko-button_kind-primary {
+            color: #fff;
+            border-color: #1785e5;
+            background-color: #1785e5;
+        }
+        
+        .bloko-button_kind-primary:hover {
+            background-color: #1173c9;
+        }
+        
+        .bloko-input {
+            line-height: 1.43;
+            font-size: 14px;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            height: 40px;
+            padding: 0 12px;
+            margin: 0;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            color: #303233;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -webkit-tap-highlight-color: transparent;
+            background-color: #fff;
+            line-height: 38px;
+            border: 1px solid #babdbf;
+        }
+        
+        .bloko-link {
+            margin-left: -25px;
+            display: inline;
+            outline: none;
+            border: 0;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 0;
+            font-size: inherit;
+            background: transparent;
+            box-shadow: none;
+            color: #3c9df2;
+            text-align: left;
+            transition: color .1s, opacity .1s;
+        }
+        
+        .bloko-link:hover {
+            color: #1186ec;
+        }
+        
+        .btn-vacancies_group2 {
+            padding: 17px 36px;
+            background-color: #1186ec;
+        }
+        
+        .btn-vacancies_group2:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header ">
+                <div class="header-mid d-none d-md-block">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="logo" style="margin: auto;">
+                                    <a href="index.html"><img style="    width: -webkit-fill-available;" src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel" style="margin: 0; height: auto; width: -webkit-fill-available;max-width: 70%;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="https://mektepforma.kz/"><img class="d-block w-100" src="assets/img/hero/header_card.png" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://t.me/kdtkzchat"><img class="d-block w-100" src="assets/img/hero/header_card2.png" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://play.google.com/store/apps/details?id=kz.kdt.bmcmobi"><img class="d-block w-100" src="assets/img/hero/header_card3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="header-bottom header-relative">
+                    <div class="container">
+                        <div class="row align-items-center" style="flex-wrap:nowrap">
+                         <div class="col-lg-10 col-lg-8 col-sm-8 mobile_menu2">
+                                <!-- sticky -->
+                                <div class="sticky-logo info-open">
+                                    <a href="index.html">
+                                            <img src="assets/img/logo/logo.png" alt="" style="max-width: 100%;">
+                                    </a>
+                                </div>
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-md-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Главная</a></li>
+                                            <li><a>Новости <i class='fas fa-angle-down'></i></a>
+                                                <ul class="submenu submenu2">
+                                                    <li><a href="news-spheres.html">Новости по сферам</a></li>
+                                                    <li><a href="news-KZ.html">Новости Казахстана</a></li>
+                                                    <li><a href="news-world.html">Новости Мира</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="comunit.html">Сообщества</a></li>
+                                            <li><a href="blog.html">Обсуждения</a></li>
+                                            <li><a href="about.html">О нас</a></li>
+                                            <li><a href="regseti.html">Региональные сети</a></li>
+                                            <li><a href="industry_portals.html">Отраслевые порталы</a>
+                                            <li><a class="menu_highlight">Работа <i class='fas fa-angle-down'></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="vak.html">Вакансии</a></li>
+                                                    <li><a  href="job.html">Резюме</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="enterprises-organizations.html">Предприятия организации</a></li>
+                                            <li><a href="reviews.html">Отзывы</a></li>
+                                              <!-- <li><a href="#">3lvl</a>
+                                                <ul class="submenu">
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="#">Blog</a>
+                                                        <ul class="submenu" style="top: 10px;left: 100%;">
+                                                            <li><a href="elements.html">Element</a></li>
+                                                            <li><a href="blog.html">Blog</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="#">Blog</a>
+                                                        <ul class="submenu" style="top: 10px;left: 100%;">
+                                                            <li><a href="elements.html">Element</a></li>
+                                                            <li><a href="blog.html">Blog</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                </ul>
+                                            </li> --> 
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="mobile_menu d-block d-md-none" style="margin-top: 56px !important;">
+                                    <div class="slicknav_menu" style="margin-top: 40px !important;">
+                                        <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"></a>
+                                        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                                            <li><a href="index.html" role="menuitem" tabindex="-1">Главная</a></li>
+                                            <li><a href="about.html" role="menuitem" tabindex="-1">О нас</a></li>
+                                            <li><a href="news-list.html" role="menuitem" tabindex="-1">Новости</a></li>
+                                            <li><a href="comunit.html" role="menuitem" tabindex="-1">Сообщества</a></li>
+                                            <li><a href="blog.html" role="menuitem" tabindex="-1">Обсуждения</a></li>
+                                            <li><a href="regseti.html" role="menuitem" tabindex="-1">Региональные сети</a></li>
+                                            <li><a href="vak.html" role="menuitem" tabindex="-1">Работа</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        <div class="col-lg-2 mobile_menu_search" style="padding-left: 0;">
+                                <div class="Search-news">
+                                    <input type="text" class="form-control">
+                                    <a href="Search.html" class="Search-news header-right-btn">
+                                        <i class="fas fa-search" style="padding: 6px 0 6px 6px;"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <!-- ================ contact section start ================= -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-path">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                                <li class="breadcrumb-item">Работа</li>
+                                <li class="breadcrumb-item active" aria-current="page">Резюме</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-30">
+                <div class="col-12 vacancies_categories">
+                    <!-- <div class="section-tittle mb-30">
+                        <h3>Вакансии</h3>
+                        <div class="pol"></div>
+                    </div> -->
+                    <div class="col-lg-10 сol-sm-8" style="margin: auto;">
+                        <div class="search">
+                            <input type="text" class="searchTerm" placeholder="Найти" style="width: 100%;">
+                            <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="pt-20 row vacancies_group">
+                        <div class="">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-vacancies_group dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Сортировка</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">По дате</a>
+                                    <a class="dropdown-item" href="#">По убыванию зарплат</a>
+                                    <a class="dropdown-item" href="#">По возрастанию зарплаты</a>
+                                    <a class="dropdown-item" href="#">По соответствию</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="btn-group">
+                                <a href="resume.html" class="btn btn-vacancies_group2">сделать резюме</a>
+                            </div>
+                        </div>
+                        <div class="" style="margin-left: auto; padding-right: 20px;">
+                            <p style="float: right;">Найдено 55 резюме</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 order-1 ">
+                            <div id="accordion" class="border_category">
+                                <form action="">
+                                    <div class="card2">
+                                        <div class="card-header2" id="headingFour">
+                                            <h5 class="mb-0">
+                                                <a class="vacancies_category" data-toggle="collapse" href="#collapseExampleFour" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                    Регионы
+                                                    <i class='fas fa-angle-down'></i>
+                                              </a>
+                                                <div></div>
+                                            </h5>
+                                        </div>
+
+                                        <div class="collapse" id="collapseExampleFour">
+                                            <div class="card2 card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">Нур-Султан</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                    <label class="form-check-label" for="defaultCheck2">Алматы</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                                    <label class="form-check-label" for="defaultCheck13">Шымкент</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Абайская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                                    <label class="form-check-label" for="defaultCheck4">Акмолинская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                                    <label class="form-check-label" for="defaultCheck5">Актюбинская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                                    <label class="form-check-label" for="defaultCheck6">Алматинская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                                                    <label class="form-check-label" for="defaultCheck7">Атырауская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Восточно-Казастанская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Жамбыльская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Жесуйская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Заподно-Казастанская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Карагандинская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Костанайская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Кызалординская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Мангистауская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Павлодарская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Улытауская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Северо-Казастанская облость</label><br>
+
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                                    <label class="form-check-label" for="defaultCheck8">Южно-Казастанская облость</label><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vacancies_line"></div>
+                                    </div>
+                                    <div class="card2">
+                                        <div class="card-header2" id="headingTest">
+                                            <h5 class="mb-0">
+                                                <a class="vacancies_category" data-toggle="collapse" href="#collapseExampleTest" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                    Отрасль и специальность
+                                                    <i class='fas fa-angle-down'></i>
+                                              </a>
+                                                <div></div>
+                                            </h5>
+                                        </div>
+                                        <div class="collapse" id="collapseExampleTest">
+                                            <div class="card2 card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" data-toggle="collapse" href="#collapseExampleTest1" role="button" aria-expanded="false" aria-controls="collapseExample" type="checkbox" value="" id="defaultCheck3">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                       	Безопасность
+                                                    </label><br>
+                                                    <div class="collapse" id="collapseExampleTest1">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Военнослужащий
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Охранник
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                            	Полицейский
+                                                            </label><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" data-toggle="collapse" href="#collapseExampleTest2" role="button" aria-expanded="false" aria-controls="collapseExample" type="checkbox" value="" id="defaultCheck3">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        Информационные технологии
+                                                    </label><br>
+                                                    <div class="collapse" id="collapseExampleTest2">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Аналитик
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Арт-директор, креативный директор
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                            	Гейм-дизайнер
+                                                            </label><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" data-toggle="collapse" href="#collapseExampleTest3" role="button" aria-expanded="false" aria-controls="collapseExample" type="checkbox" value="" id="defaultCheck3">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        Энергетика
+                                                    </label><br>
+                                                    <div class="collapse" id="collapseExampleTest3">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Теплоснабжение
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Сбыт и потребление электроэнергии
+                                                            </label><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" data-toggle="collapse" href="#collapseExampleTest4" role="button" aria-expanded="false" aria-controls="collapseExample" type="checkbox" value="" id="defaultCheck4">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                    	Услуги для населения 
+                                                    </label><br>
+                                                    <div class="collapse" id="collapseExampleTest4">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Аренда автомобилей
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Домашний персонал
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Игорный бизнес
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Такси
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Химчистка
+                                                            </label><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" data-toggle="collapse" href="#collapseExampleTest5" role="button" aria-expanded="false" aria-controls="collapseExample" type="checkbox" value="" id="defaultCheck5">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        Финансовый сектор
+                                                    </label><br>
+                                                    <div class="collapse" id="collapseExampleTest5">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Банк
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Факторинговые компании
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                НПФ
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Лизинговые компании
+                                                            </label><br>
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Коллекторская деятельность
+                                                            </label><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="vacancies_line"></div>
+                                    </div>
+                                    <div class="card2">
+                                        <div class="card-header2" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <a class="vacancies_category" data-toggle="collapse" href="#collapseExampleTwo" role="button" aria-expanded="false" aria-controls="collapseExample"> Опыт работы
+                                                    <i class='fas fa-angle-down'></i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div class="collapse" id="collapseExampleTwo">
+                                            <div class="card2 card-body">
+                                                <div class="form-check">
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                                        Не имеет значения
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label" for="exampleRadios2">
+                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                        Нет опыта
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label" for="exampleRadios3">
+                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                                        От 1 до 3 лет
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label" for="exampleRadios4">
+                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option3">
+                                                        От 3 лет
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vacancies_line"></div>
+                                    </div>
+                                    <div class="card2">
+                                        <div class="card-header2" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <a class="vacancies_category" data-toggle="collapse" href="#collapseExampleThree" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                    Тип занятости
+                                                    <i class='fas fa-angle-down'></i>
+                                              </a>
+                                                <div></div>
+                                            </h5>
+                                        </div>
+
+                                        <div class="collapse" id="collapseExampleThree">
+                                            <div class="card2 card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        Полная занятость
+                                                    </label><br>
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        Частичная занятость
+                                                    </label><br>
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        Стажировка
+                                                    </label><br>
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        Проектная работа
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vacancies_line"></div>
+                                    </div>
+                                    <button type="button" class="btn vacancies_category_btn">Найти</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 order-2 border-vak">
+                            <!-- мод окно -->
+                            <div class="modal fade" id="modal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header" style="max-width: max-content;">
+                                            <div class="bloko-tree-selector-popup-search">
+                                                <input data-qa="bloko-tree-selector-popup-search" style="width: -webkit-fill-available;" placeholder="Быстрый поиск" type="search" class="bloko-input" value="">
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="job-modal">
+                                                <a href="#demo" class="btn-modal" data-toggle="collapse" style=" display: inherit;"> <input class="form-check-input" type="checkbox" value="" id="carCheck1">
+                                                    <label class="form-check-label carCheck1" for="carCheck1">Промышленность</label><br>
+                                                </a>
+                                                <div id="demo" class="collapse">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck1-1">
+                                                        <label class="form-check-label" for="carCheck1-1">Деревообработка</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck1-2">
+                                                        <label class="form-check-label" for="carCheck1-2">Продукция деревообработки</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck1-3">
+                                                        <label class="form-check-label" for="carCheck1-3">Столярно-строительные изделия</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck1-4">
+                                                        <label class="form-check-label" for="carCheck1-4">Целлюлозно-бумажная продукция</label><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="job-modal">
+                                                <a href="#demo1" class="btn-modal" data-toggle="collapse" style=" display: inherit;"> <input class="form-check-input" type="checkbox" value="" id="carCheck1">
+                                                    <label class="form-check-label carCheck1" for="carCheck2">Сельское хозяйство</label><br>
+                                                </a>
+                                                <div id="demo1" class="collapse">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck2-1">
+                                                        <label class="form-check-label" for="carCheck2-1">Земледелие, растениеводство, животноводство</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck2-2">
+                                                        <label class="form-check-label" for="carCheck2-2">Рыболовство, рыбоводство</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck2-3">
+                                                        <label class="form-check-label" for="carCheck2-3">Сельскохозяйственная продукция</label><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="job-modal">
+                                                <a href="#demo3" class="btn-modal" data-toggle="collapse" style=" display: inherit;"> <input class="form-check-input" type="checkbox" value="" id="carCheck3">
+                                                    <label class="form-check-label carCheck1" for="carCheck3">Лесное хозяйство</label><br>
+                                                </a>
+                                                <div id="demo3" class="collapse">
+                                                    <div class="form-check">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="job-modal">
+                                                <a href="#demo4" class="btn-modal" data-toggle="collapse" style=" display: inherit;"> <input class="form-check-input" type="checkbox" value="" id="carCheck4">
+                                                    <label class="form-check-label carCheck1" for="carCheck2">Строительство</label><br>
+                                                </a>
+                                                <div id="demo4" class="collapse">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck4-1">
+                                                        <label class="form-check-label" for="carCheck4-1">Строительство энергетическое</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck4-2">
+                                                        <label class="form-check-label" for="carCheck4-2">Строительство промышленное</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck2-3">
+                                                        <label class="form-check-label" for="carCheck4-3">Строительство объектов телекоммуникационной отрасли</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck4-4">
+                                                        <label class="form-check-label" for="carCheck4-4">	Строительство жилищное</label><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="job-modal">
+                                                <a href="#demo5" class="btn-modal" data-toggle="collapse" style=" display: inherit;"> <input class="form-check-input" type="checkbox" value="" id="carCheck5">
+                                                    <label class="form-check-label carCheck1" for="carCheck5">Связь</label><br>
+                                                </a>
+                                                <div id="demo5" class="collapse">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck5-1">
+                                                        <label class="form-check-label" for="carCheck5-1">Мобильная связь</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck5-2">
+                                                        <label class="form-check-label" for="carCheck5-2">Оптоволоконная связь</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck5-3">
+                                                        <label class="form-check-label" for="carCheck5-3">Спутниковая связь</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck5-4">
+                                                        <label class="form-check-label" for="carCheck5-4">	Фиксированная связь</label><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="job-modal">
+                                                <a href="#demo6" class="btn-modal" data-toggle="collapse" style=" display: inherit;"> <input class="form-check-input" type="checkbox" value="" id="carCheck6">
+                                                    <label class="form-check-label carCheck1" for="carCheck6">Продукты питания</label><br>
+                                                </a>
+                                                <div id="demo6" class="collapse">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck6-1">
+                                                        <label class="form-check-label" for="carCheck6-1">Алкогольные напитки</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck6-2">
+                                                        <label class="form-check-label" for="carCheck6-2">Безалкогольные напитки</label><br>
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="carCheck6-3">
+                                                        <label class="form-check-label" for="carCheck6-3">Детское питание</label><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="modal-footer">
+                                                <span class="bloko-form-spacer">
+                                            <button class="bloko-button" type="button" data-dismiss="modal" data-qa="bloko-tree-selector-popup-cancel">
+                                                <span>Отменить</span>
+                                                <!-- <button type="button" class="close" data-dismiss="modal">
+                                                    <span>Отменить;</span>
+                                                  </button> -->
+                                                </button>
+                                                </span>
+                                                <span class="bloko-form-spacer">
+                                            <button class="bloko-button bloko-button_kind-primary" data-dismiss="modal" type="button" data-qa="bloko-tree-selector-popup-submit">
+                                                <span>Выбрать</span>
+                                                </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vacancy_list">
+                                <div class="news-author-list-item border-color mb-30">
+
+                                    <div class="col-3 news-author-list-item-image">
+                                        <div class="job-image-container">
+                                            <a href="resume_details.html">
+                                                <img class="job-image" src="assets/img/post/post_2.png" alt=" ">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-9 news-author-list-item-text  ">
+                                        <a class="vacancy_item_link" href="#">
+                                            <h4>Бухгалтер, бухгалтер в одном лице</h4>
+                                        </a>
+                                        <p class="job-text">Марина, 33 года</p>
+                                        <p class="job-text">Среднее специальное образование • Опыт работы 5 лет 6 месяцев</p>
+                                        <p class="job-text">Заместитель главного бухгалтер </p>
+                                        <p class="job-text">АО " Астана-Энергия", Март 2012 — по настоящее время</p>
+                                        <p class="vacancy_item_date">Сегодня</p>
+
+                                        <a href="resume_details.html"><button type="submit" class="btn  vacancy_btn">подробнее</button></a>
+                                    </div>
+                                </div>
+                                <div class="news-author-list-item border-color mb-30">
+
+                                    <div class="col-3 news-author-list-item-image">
+                                        <div class="job-image-container">
+                                            <a href="resume_details.html">
+                                                <img class="job-image" src="assets/img/post/post_2.png" alt=" ">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-9 news-author-list-item-text  ">
+                                        <a class="vacancy_item_link" href="#">
+                                            <h4>Бухгалтер, бухгалтер в одном лице</h4>
+                                        </a>
+                                        <p class="job-text">Марина, 33 года</p>
+                                        <p class="job-text">Среднее специальное образование • Опыт работы 5 лет 6 месяцев</p>
+                                        <p class="job-text">Заместитель главного бухгалтер </p>
+                                        <p class="job-text">АО " Астана-Энергия", Март 2012 — по настоящее время</p>
+                                        <p class="vacancy_item_date">Сегодня</p>
+
+                                        <a href="resume_details.html"><button type="submit" class="btn  vacancy_btn">подробнее</button></a>
+                                    </div>
+                                </div>
+                                <div class="news-author-list-item border-color mb-30">
+
+                                    <div class="col-3 news-author-list-item-image">
+                                        <div class="job-image-container">
+                                            <a href="resume_details.html">
+                                                <img class="job-image" src="assets/img/post/post_2.png" alt=" ">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 news-author-list-item-text  ">
+                                        <a class="vacancy_item_link" href="#">
+                                            <h4>Бухгалтер, бухгалтер в одном лице</h4>
+                                        </a>
+                                        <p class="job-text">Марина, 33 года</p>
+                                        <p class="job-text">Среднее специальное образование • Опыт работы 5 лет 6 месяцев</p>
+                                        <p class="job-text">Заместитель главного бухгалтер </p>
+                                        <p class="job-text">АО " Астана-Энергия", Март 2012 — по настоящее время</p>
+                                        <p class="vacancy_item_date">Сегодня</p>
+
+                                        <a href="resume_details.html"><button type="submit" class="btn  vacancy_btn">подробнее</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-area pb-45 text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="single-wrap d-flex justify-content-center">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-start">
+                                        <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow roted"></span></a></li>
+                                        <li class="page-item active"><a class="page-link" href="">01</a></li>
+                                        <li class="page-item"><a class="page-link" href="vak2.html">02</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">03</a></li>
+                                        <li class="page-item"><a class="page-link" href="vak2.html"><span class="flaticon-arrow right-arrow"></span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://mektepforma.kz/"><img class="d-block w-100" src="assets/img/hero/header_card.png" alt=""></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://t.me/kdtkzchat"><img class="d-block w-100" src="assets/img/hero/header_card2.png" alt=""></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://play.google.com/store/apps/details?id=kz.kdt.bmcmobi"></a><img class="d-block w-100" src="assets/img/hero/header_card3.png" alt=""></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ================ contact section end ================= -->
+    <footer>
+        <div class="recent-articles ">
+            <div class="container ">
+                <div class="recent-wrapper ">
+                    <section id="deos ">
+                        <!-- section Tittle -->
+                        <div class="row ">
+                            <div class="col-lg-12 ">
+                                <div class="section-tittle mb-30 ">
+                                    <h3>Полезное</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-12 ">
+                                <div class="owl-carousel owl-theme ">
+                                    <div class="item ">
+                                        <a href="https://agartu.kz/zayavka">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/7.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://agartu.kz/zayavka ">Подавай заявки куда угодно!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://elib.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/1.png " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://elib.kdt.kz/ ">Учись с умом с Е-библиотекой</a>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://study.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/6.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://study.kdt.kz/ ">С нашими сервисами учиться проще!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://exams.kdt.kz/ ">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/5.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://exams.kdt.kz/ ">Проверь свои знания с BMC Exams!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://security.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/4.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://security.kdt.kz/ ">Будь в безопасности с ВМС СМБР!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://vacancy.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/2.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://vacancy.kdt.kz/ ">Найди работу своей мечты с ВМС Вакансии</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://estol.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/3.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://estol.kdt.kz/ ">Ешь не думая с Е-столовой!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding fix" style="padding-top: 30px;">
+            <div class="container ">
+                <div class="row d-flex justify-content-between ">
+                    <div class="col-xl-3 col-lg-4 col-md-7 col-sm-12 ">
+                        <div class="single-footer-caption ">
+                            <div class="single-footer-caption ">
+                                <!-- logo -->
+                                <div class="footer-logo ">
+                                    <a href="index.html "><img src="assets/img/logo/logo2_footer.png " alt=" "></a>
+                                </div>
+                                <div class="footer-tittle ">
+                                    <div class="footer-pera ">
+                                        <p>Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки новых предложений.</p>
+                                    </div>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social ">
+                                    <a href="# "><i class="fab fa-telegram "></i></a>
+                                    <a href="# "><i class="fab fa-vk "></i></a>
+                                    <a href="# "><i class="fab fa-twitter "></i></a>
+                                    <a href="# "><i class="fab fa-facebook "></i></a>
+                                    <a href="# "><i class="fab fa-youtube "></i></a>
+                                    <a href="# "><i class="fa fa-rss "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5 ">
+                        <div class="single-footer-caption mb-20 mt-30 ">
+                            <nav>
+                                <div class="footer-tittle footer-tittle-navigation ">
+                                    <h4>Меню</h4>
+                                    <ul class="footer_navigation ">
+                                        <li><a class="footer_navigation_text " href="index.html ">Главная</a></li>
+                                        <li><a class="footer_navigation_text " href="latest_news.html ">Новости</a></li>
+                                        <li><a class="footer_navigation_text " href="comunit.html ">Сообщества</a></li>
+                                        <li><a class="footer_navigation_text " href="blog.html ">Обсуждения</a></li>
+                                        <li><a class="footer_navigation_text " href="about.html ">О нас</a></li>
+                                        <li><a class="footer_navigation_text " href="regseti.html ">Региональные сети</a></li>
+                                        <li><a href="industry_portals.html">Отраслевые порталы</a></li>
+                                        <li><a class="footer_navigation_text " href="vak.html ">Вакансии</a></li>
+                                      <li><a class="footer_navigation_text " href="job.html">Резюме</a></li>
+                                        <li><a class="footer_navigation_text " href="enterprises-organizations.html">Предприятия организации</a></li>
+                                       <li><a class="footer_navigation_text " href="reviews.html">Отзывы</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-2 col-md-4 col-sm-5 ">
+                        <div class="single-footer-caption mb-20 mt-30 ">
+                            <nav>
+                                <div class="footer-tittle footer-tittle-navigation ">
+                                    <h4>Дополнительное меню</h4>
+                                    <ul class="footer_navigation ">
+                                        <li>
+                                            <a class="footer_navigation_text " href=" "></a>
+                                        </li>
+                                        <li>
+                                            <a class="footer_navigation_text " href=" "></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-8 col-sm-5">
+                        <div class="site-statistics row">
+                            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 ">
+                                <p class="count mt-30 "><span>Статистика сайта</span></p>
+                                <ul class="statistika ">
+                                    <li>За месяц<span>: 130</span></li>
+                                    <li>За неделю<span>: 17</span></li>
+                                    <li>Вчера<span>: 4</span></li>
+                                    <li>Сегодня<span>: 4</span></li>
+                                    <li>Онлайн<span>: 0</span></li>
+                                </ul>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12">
+                                <p class="count mt-0 "><span>Статистика платформы</span></p>
+                                <ul class="statistika ">
+                                    <li>За месяц<span>: 135204</span></li>
+                                    <li>За неделю<span>: 19218</span></li>
+                                    <li>Вчера<span>: 4268</span></li>
+                                    <li>Сегодня<span>: 2604</span></li>
+                                    <li>Онлайн<span>: 187</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area ">
+            <div class="container ">
+                <div class="footer-border ">
+                    <div class="row d-flex align-items-center justify-content-between ">
+                        <div class="col-lg-6 ">
+                            <div class="footer-copy-right ">
+                                <p style="margin-bottom: 0">© 2022 "BenchMark Consulting"</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <div class="footer-menu f-right ">
+                                <p style="margin-bottom: 0;"><a href="# ">Политика конфиденциальности</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <div class="footer-menu f-right ">
+                                <p style="margin-bottom: 0;"><a href="# ">Пользовательское соглашение</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- All JS Custom Plugins Link Here here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js "></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js "></script>
+    <script src="./assets/js/popper.min.js "></script>
+    <script src="./assets/js/bootstrap.min.js "></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js "></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js "></script>
+    <script src="./assets/js/slick.min.js "></script>
+    <!-- Date Picker -->
+    <script src="./assets/js/gijgo.min.js "></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js "></script>
+    <script src="./assets/js/animated.headline.js "></script>
+    <script src="./assets/js/jquery.magnific-popup.js "></script>
+
+    <!-- Breaking New Pluging -->
+    <script src="./assets/js/jquery.ticker.js "></script>
+    <script src="./assets/js/site.js "></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js "></script>
+    <script src="./assets/js/jquery.nice-select.min.js "></script>
+    <script src="./assets/js/jquery.sticky.js "></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js "></script>
+    <script src="./assets/js/jquery.form.js "></script>
+    <script src="./assets/js/jquery.validate.min.js "></script>
+    <script src="./assets/js/mail-script.js "></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js "></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js "></script>
+    <script src="./assets/js/main.js "></script>
+
+</body>
+
+</html>

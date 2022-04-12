@@ -1,0 +1,812 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Agartu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        .carousel_slide1 {
+            margin-top: 85px;
+        }
+        
+        .col-md-3 {
+            width: 25%;
+        }
+        
+        .wr_block {
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        
+        .my-block-left {
+            background: #00b88b;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        
+        .title {
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        
+        .title .new-title {
+            display: inline-block;
+            font-weight: normal;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .image {
+            position: relative;
+            text-align: center;
+            vertical-align: top;
+        }
+        
+        .cn img {
+            width: 100% !important;
+        }
+        
+        .my-wrapper img {
+            max-width: 100%;
+        }
+        
+        .com_des {
+            overflow: hidden;
+        }
+        
+        .my-wrapper .com_des {
+            overflow: hidden;
+        }
+        
+        .col-md-12 {
+            float: left;
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        
+        элемент {
+            display: block;
+        }
+        
+        #fulldescr {
+            padding: 0 !important;
+        }
+        
+        .wr_block {
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        }
+        
+        .bot_menu {
+            background: #F3F3F3;
+            overflow: hidden;
+        }
+        
+        .bot_menu li a {
+            display: block;
+            font-size: 12px;
+            background: #059c77;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+        
+        .lang {
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .lang a {
+            background: #41658b;
+            padding: 5px;
+            border-radius: 50px;
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        
+        .col-md-6 {
+            width: 50%;
+        }
+        
+        .row {
+            margin-left: -5px;
+            margin-right: -5px;
+        }
+        
+        .sobit-news {
+            overflow: hidden;
+        }
+        
+        .grt {
+            float: none;
+            width: 100%;
+        }
+        
+        .title-a {
+            background: #00b88b;
+            padding: 5px;
+            color: #fff;
+            font-size: 18px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+        
+        .title-a h5 {
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 10px;
+            margin-bottom: 0;
+            vertical-align: text-bottom;
+        }
+        
+        .sobitiy-wrap,
+        .new-wrap-obsugdeniy,
+        .liders-wrap2,
+        .tems,
+        .tab_container2 {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        
+        .title-a .sozdanie-tem,
+        .title-a .all-news {
+            background: #059c77;
+            color: #fff;
+            padding: 5px;
+            border: none;
+            display: inline-block;
+            margin-left: 10px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            font-size: 10px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        
+        .my-wrapper a {
+            text-decoration: none;
+        }
+        
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .col-md-3 {
+            max-width: 100%;
+        }
+        
+        .h5 {
+            color: #fff;
+        }
+        
+        .main-header .main-menu ul li a {
+            padding: 39px 8px;
+        }
+    </style>
+</head>
+
+<body>
+   <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header ">
+                <div class="header-mid d-none d-md-block">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="logo" style="margin: auto;">
+                                    <a href="index.html"><img style="    width: -webkit-fill-available;" src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel" style="margin: 0; height: auto; width: -webkit-fill-available;max-width: 70%;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="https://mektepforma.kz/"><img class="d-block w-100" src="assets/img/hero/header_card.png" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://t.me/kdtkzchat"><img class="d-block w-100" src="assets/img/hero/header_card2.png" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://play.google.com/store/apps/details?id=kz.kdt.bmcmobi"><img class="d-block w-100" src="assets/img/hero/header_card3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="header-bottom header-relative">
+                    <div class="container">
+                        <div class="row align-items-center" style="flex-wrap:nowrap">
+                         <div class="col-lg-10 col-lg-8 col-sm-8 mobile_menu2">
+                                <!-- sticky -->
+                                <div class="sticky-logo info-open">
+                                    <a href="index.html">
+                                            <img src="assets/img/logo/logo.png" alt="" style="max-width: 100%;">
+                                    </a>
+                                </div>
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-md-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Главная</a></li>
+                                            <li><a>Новости <i class='fas fa-angle-down'></i></a>
+                                                <ul class="submenu submenu2">
+                                                    <li><a href="news-spheres.html">Новости по сферам</a></li>
+                                                    <li><a href="news-KZ.html">Новости Казахстана</a></li>
+                                                    <li><a href="news-world.html">Новости Мира</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="menu_highlight" href="comunit.html">Сообщества</a></li>
+                                            <li><a href="blog.html">Обсуждения</a></li>
+                                            <li><a href="about.html">О нас</a></li>
+                                            <li><a href="regseti.html">Региональные сети</a></li>
+                                            <li><a href="industry_portals.html">Отраслевые порталы</a>
+                                            <li><a>Работа <i class='fas fa-angle-down'></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="vak.html">Вакансии</a></li>
+                                                    <li><a href="job.html">Резюме</a></li>
+                                                </ul>
+                                            </li>
+                                           <li><a href="enterprises-organizations.html">Предприятия организации</a></li>
+                                            <li><a href="reviews.html">Отзывы</a></li>
+                                              <!-- <li><a href="#">3lvl</a>
+                                                <ul class="submenu">
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="#">Blog</a>
+                                                        <ul class="submenu" style="top: 10px;left: 100%;">
+                                                            <li><a href="elements.html">Element</a></li>
+                                                            <li><a href="blog.html">Blog</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="#">Blog</a>
+                                                        <ul class="submenu" style="top: 10px;left: 100%;">
+                                                            <li><a href="elements.html">Element</a></li>
+                                                            <li><a href="blog.html">Blog</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                </ul>
+                                            </li> --> 
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="mobile_menu d-block d-md-none" style="margin-top: 56px !important;">
+                                    <div class="slicknav_menu" style="margin-top: 40px !important;">
+                                        <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"></a>
+                                        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                                            <li><a href="index.html" role="menuitem" tabindex="-1">Главная</a></li>
+                                            <li><a href="about.html" role="menuitem" tabindex="-1">О нас</a></li>
+                                            <li><a href="news-list.html" role="menuitem" tabindex="-1">Новости</a></li>
+                                            <li><a href="comunit.html" role="menuitem" tabindex="-1">Сообщества</a></li>
+                                            <li><a href="blog.html" role="menuitem" tabindex="-1">Обсуждения</a></li>
+                                            <li><a href="regseti.html" role="menuitem" tabindex="-1">Региональные сети</a></li>
+                                            <li><a href="vak.html" role="menuitem" tabindex="-1">Работа</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        <div class="col-lg-2 mobile_menu_search" style="padding-left: 0;">
+                                <div class="Search-news">
+                                    <input type="text" class="form-control">
+                                    <a href="Search.html" class="Search-news header-right-btn">
+                                        <i class="fas fa-search" style="padding: 6px 0 6px 6px;"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <div class="container">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-path">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                                <li class="breadcrumb-item"><a href="comunit.html">Сообщества</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Сообщество</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row_left" style="width: 30%; height: auto; display: block;">
+                    <div class="col-md-3" style="display: inline-block; width: 100%;">
+                        <div class="wr_block">
+                            <div class="my-block-left">
+                                <div class="title">
+                                    <div class="new-title">
+                                        Клуб аудиторов г. Астана
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class='cn'>
+                                <div class='image' style='position:relative; text-align:center; vertical-align:top;'>
+                                    <img src='assets/img/logo/logo.jpg' />
+                                </div>
+                            </div>
+                            <div class="com_des">
+                                <!-- <script type="text/javascript">
+                                    function showhidedescr() {
+                                        if ($('#cutdescr').css('display') == 'none') {
+                                            $('#cutdescr').css('display', 'block');
+                                            $('#fulldescr').css('display', 'none');
+                                        } else {
+                                            $('#cutdescr').css('display', 'none');
+                                            $('#fulldescr').css('display', 'block');
+                                        }
+                                    }
+                                </script> -->
+                                <div class="col-md-12">
+                                    <div>
+                                        <!-- <script type='text/javascript'>
+                                            $(document).on('click', '#enterCommunity', '', function() {
+                                                ioCallEntity({
+                                                    entity: 'io.model.social.community.addSelf',
+                                                    resultType: 'json',
+                                                    params: {
+                                                        pkid: '1544789146869111',
+                                                    },
+                                                    success: function(data) {
+                                                        var obj;
+                                                        try {
+                                                            obj = $.parseJSON(data);
+                                                        } catch (ex) {
+                                                            obj = null;
+                                                        }
+                                                        if (obj) {
+                                                            $('#enterCommunity').html('');
+                                                            $('#enterCommunity').attr('id', 'logoutCommunity');
+                                                        }
+                                                    }
+                                                })
+                                            });
+                                            $(document).on('click', '#logoutCommunity', '', function() {
+                                                ioCallEntity({
+                                                    entity: 'io.model.social.community.deleteSelf',
+                                                    resultType: 'json',
+                                                    params: {
+                                                        pkid: '1544789146869111',
+                                                    },
+                                                    success: function(data) {
+                                                        var obj;
+                                                        try {
+                                                            obj = $.parseJSON(data);
+                                                        } catch (ex) {
+                                                            obj = null;
+                                                        }
+                                                        if (obj) {
+                                                            $('#logoutCommunity').html('');
+                                                            $('#logoutCommunity').attr('id', 'enterCommunity');
+                                                        }
+                                                    }
+                                                })
+                                            });
+                                        </script> -->
+                                        <!-- <h2 style="margin: 0px;"><span><a style="display:none;" href="javascript://" onclick="showhidedescr()">подробное описание</a></span></h2> -->
+                                        <p id="cutdescr" style="display:none;">Приветствуем Вас в нашем клубе! Будем очень рады помочь новым участникам клуба и поддержать старожилов...</p>
+                                        <p id="fulldescr" style="display:block;">Приветствуем Вас в нашем клубе! Будем очень рады помочь новым участникам клуба и поддержать старожилов</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="seti">
+                                        <!-- <script type="text/javascript">
+                                            (function() {
+                                                if (window.pluso)
+                                                    if (typeof window.pluso.start == "function") return;
+                                                if (window.ifpluso == undefined) {
+                                                    window.ifpluso = 1;
+                                                    var d = document,
+                                                        s = d.createElement('script'),
+                                                        g = 'getElementsByTagName';
+                                                    s.type = 'text/javascript';
+                                                    s.charset = 'UTF-8';
+                                                    s.async = true;
+                                                    s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+                                                    var h = d[g]('body')[0];
+                                                    h.appendChild(s);
+                                                }
+                                            })();
+                                        </script> -->
+                                        <div class="pluso" data-background="transparent" data-options="small,round,line,horizontal,nocounter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email"></div>
+                                    </div>
+                                </div>
+                                <div style='clear:both;'></div>
+                            </div>
+                        </div>
+                        <div class="wr_block">
+                            <div class="bot_menu">
+                                <ul>
+                                    <li><a href="http://audit.kdt.kz">Назад</a></li>
+                                </ul>
+                            </div>
+                            <div class="lang">
+                                <a href="?lang=kz">kaz</a>
+                                <a href="?lang=ru">rus</a>
+                                <a href="?lang=en">eng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row_center" style="width: 40%; display: block; height: auto;">
+                    <div class="col-md-12" style="display: inline-block; width: 100%;">
+                        <div class="wr_block">
+                            <div class="sobit-news">
+                                <div class="right2 grt">
+                                    <div class="new-none">
+                                        <div class="title-a">
+                                            <h5 style="color: #fff;">Новости</h5>
+                                            <a href="/news" class="all-news">Все новости</a>
+                                        </div>
+                                        <div class="new-wrap-obsugdeniy flex">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row_right" style="width: 30%; height: auto; display: block;">
+                    <div class="col-md-3" style="display: inline-block; width: 100%;">
+                        <div class="row">
+                            <div class="col-md-12" style="padding-right: 5px; padding-left: 5px;">
+                                <!--Начало правой левой колонки-->
+                                <div class="wr_block">
+                                    <div class="uchastniki">
+                                        <div class="title-b">
+                                            <h5>Участники</h5>
+                                        </div>
+                                        <div class="wrap-uchast">
+                                            <div class="slider2">
+                                                <div class="slide">
+                                                    <img src="//cdn1.kdt.kz/files/avatar/88/cf/b2/88cfb21c0766a1815f3ef88d8641c437_small.jpg">
+                                                    <p>dujsekeev.nursultan</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Конец правой левой колонки-->
+                            </div>
+                        </div>
+                        <div class="wr_block">
+                            <div class="my-block-right">
+                                <div class="obshenie">
+                                    <div class="title-a">
+
+                                        <h5 style="color: #fff;">Обсуждения</h5>
+                                        <a href="/discussions" class="sozdanie-tem">Все обсуждения</a>
+                                    </div>
+                                    <div class='news_p com_des'>
+                                        <i></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="recent-articles ">
+            <div class="container ">
+                <div class="recent-wrapper ">
+                    <section id="deos ">
+                        <!-- section Tittle -->
+                        <div class="row ">
+                            <div class="col-lg-12 ">
+                                <div class="section-tittle mb-30 ">
+                                    <h3>Полезное</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-12 ">
+                                <div class="owl-carousel owl-theme ">
+                                    <div class="item ">
+                                        <a href="https://agartu.kz/zayavka">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/7.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://agartu.kz/zayavka ">Подавай заявки куда угодно!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://elib.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/1.png " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://elib.kdt.kz/ ">Учись с умом с Е-библиотекой</a>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://study.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/6.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://study.kdt.kz/ ">С нашими сервисами учиться проще!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="https://exams.kdt.kz/ ">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/5.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="https://exams.kdt.kz/ ">Проверь свои знания с BMC Exams!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://security.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/4.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://security.kdt.kz/ ">Будь в безопасности с ВМС СМБР!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://vacancy.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/2.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://vacancy.kdt.kz/ ">Найди работу своей мечты с ВМС Вакансии</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item ">
+                                        <a href="http://estol.kdt.kz/">
+                                            <div class="what-img ">
+                                                <img src="assets/img/useful/3.jpg " alt=" ">
+                                            </div>
+                                            <div class="what-cap ">
+                                                <p><a class="what-cap-link " href="http://estol.kdt.kz/ ">Ешь не думая с Е-столовой!</a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding fix" style="padding-top: 30px;">
+            <div class="container ">
+                <div class="row d-flex justify-content-between ">
+                    <div class="col-xl-3 col-lg-4 col-md-7 col-sm-12 ">
+                        <div class="single-footer-caption ">
+                            <div class="single-footer-caption ">
+                                <!-- logo -->
+                                <div class="footer-logo ">
+                                    <a href="index.html "><img src="assets/img/logo/logo2_footer.png " alt=" "></a>
+                                </div>
+                                <div class="footer-tittle ">
+                                    <div class="footer-pera ">
+                                        <p>Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки новых предложений.</p>
+                                    </div>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social ">
+                                    <a href="# "><i class="fab fa-telegram "></i></a>
+                                    <a href="# "><i class="fab fa-vk "></i></a>
+                                    <a href="# "><i class="fab fa-twitter "></i></a>
+                                    <a href="# "><i class="fab fa-facebook "></i></a>
+                                    <a href="# "><i class="fab fa-youtube "></i></a>
+                                    <a href="# "><i class="fa fa-rss "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5 ">
+                        <div class="single-footer-caption mb-20 mt-30 ">
+                            <nav>
+                                <div class="footer-tittle footer-tittle-navigation ">
+                                    <h4>Меню</h4>
+                                    <ul class="footer_navigation ">
+                                        <li><a class="footer_navigation_text " href="index.html ">Главная</a></li>
+                                        <li><a class="footer_navigation_text " href="latest_news.html ">Новости</a></li>
+                                        <li><a class="footer_navigation_text " href="comunit.html ">Сообщества</a></li>
+                                        <li><a class="footer_navigation_text " href="blog.html ">Обсуждения</a></li>
+                                        <li><a class="footer_navigation_text " href="about.html ">О нас</a></li>
+                                        <li><a class="footer_navigation_text " href="regseti.html ">Региональные сети</a></li>
+                                        <li><a href="industry_portals.html">Отраслевые порталы</a></li>
+                                        <li><a class="footer_navigation_text " href="vak.html ">Вакансии</a></li>
+                                      <li><a class="footer_navigation_text " href="job.html">Резюме</a></li>
+                                        <li><a class="footer_navigation_text " href="enterprises-organizations.html">Предприятия организации</a></li>
+                                       <li><a class="footer_navigation_text " href="reviews.html">Отзывы</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-2 col-md-4 col-sm-5 ">
+                        <div class="single-footer-caption mb-20 mt-30 ">
+                            <nav>
+                                <div class="footer-tittle footer-tittle-navigation ">
+                                    <h4>Дополнительное меню</h4>
+                                    <ul class="footer_navigation ">
+                                        <li>
+                                            <a class="footer_navigation_text " href=" "></a>
+                                        </li>
+                                        <li>
+                                            <a class="footer_navigation_text " href=" "></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-8 col-sm-5">
+                        <div class="site-statistics row">
+                            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 ">
+                                <p class="count mt-30 "><span>Статистика сайта</span></p>
+                                <ul class="statistika ">
+                                    <li>За месяц<span>: 130</span></li>
+                                    <li>За неделю<span>: 17</span></li>
+                                    <li>Вчера<span>: 4</span></li>
+                                    <li>Сегодня<span>: 4</span></li>
+                                    <li>Онлайн<span>: 0</span></li>
+                                </ul>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12">
+                                <p class="count mt-0 "><span>Статистика платформы</span></p>
+                                <ul class="statistika ">
+                                    <li>За месяц<span>: 135204</span></li>
+                                    <li>За неделю<span>: 19218</span></li>
+                                    <li>Вчера<span>: 4268</span></li>
+                                    <li>Сегодня<span>: 2604</span></li>
+                                    <li>Онлайн<span>: 187</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area ">
+            <div class="container ">
+                <div class="footer-border ">
+                    <div class="row d-flex align-items-center justify-content-between ">
+                        <div class="col-lg-6 ">
+                            <div class="footer-copy-right ">
+                                <p style="margin-bottom: 0">© 2022 "BenchMark Consulting"</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <div class="footer-menu f-right ">
+                                <p style="margin-bottom: 0;"><a href="# ">Политика конфиденциальности</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <div class="footer-menu f-right ">
+                                <p style="margin-bottom: 0;"><a href="# ">Пользовательское соглашение</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- All JS Custom Plugins Link Here here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js "></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js "></script>
+    <script src="./assets/js/popper.min.js "></script>
+    <script src="./assets/js/bootstrap.min.js "></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js "></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js "></script>
+    <script src="./assets/js/slick.min.js "></script>
+    <!-- Date Picker -->
+    <script src="./assets/js/gijgo.min.js "></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js "></script>
+    <script src="./assets/js/animated.headline.js "></script>
+    <script src="./assets/js/jquery.magnific-popup.js "></script>
+
+    <!-- Breaking New Pluging -->
+    <script src="./assets/js/jquery.ticker.js "></script>
+    <script src="./assets/js/site.js "></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js "></script>
+    <script src="./assets/js/jquery.nice-select.min.js "></script>
+    <script src="./assets/js/jquery.sticky.js "></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js "></script>
+    <script src="./assets/js/jquery.form.js "></script>
+    <script src="./assets/js/jquery.validate.min.js "></script>
+    <script src="./assets/js/mail-script.js "></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js "></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js "></script>
+    <script src="./assets/js/main.js "></script>
+
+</body>
+
+</html>
